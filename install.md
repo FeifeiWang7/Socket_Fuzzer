@@ -17,6 +17,7 @@ Configure NDK
 	source ~/.bash_profile 
 
 Test NDK
+
 	cd /Users/feifei/Documents/adt-bundle-mac-x86_64-20131030/android-ndk-r9d/samples/hello-jni	
 
 	ndk-build
