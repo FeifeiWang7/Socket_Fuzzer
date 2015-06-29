@@ -6,7 +6,7 @@ from google git
 
 There are two approaches.
 
-The first approach is to use the default config
+The first approach is to use the default config (suggested)
 
 	ls arch/arm/configs/*exynos*
 	
@@ -31,3 +31,7 @@ If success, there should be a zImage under arch/arm/boot directory
 	adb reboot bootloader
 
 	fastboot boot zImage
+	
+Check if boot successfully (according to timestamp)
+
+	adb shell cat /proc/version
